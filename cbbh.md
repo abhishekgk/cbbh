@@ -1,4 +1,4 @@
-# Bug bounty Hunter path
+# Pentest Commands
 
 -------------------------
 
@@ -17,10 +17,6 @@ curl -O inlanefreight.com/index.html
 ```
 
 
-> First Flag
-
-`HTB{64$!c_cURL_u$3r}`
-
 > HTTP version 1.X sends requests as clear-text, and uses a new-line character to separate different fields and different requests. HTTP version 2.X, on the other hand, sends requests as binary data in a dictionary form.
 
 > We can use custom User-Agent flags via curl using:
@@ -30,10 +26,6 @@ curl https://www.inlanefreight.com -A 'Mozilla/5.0'
 ```
 
 > Other headers can be added using '-H' Flag
-
->Second Flag
-
-`HTB{p493_r3qu3$t$_m0n!t0r}`
 
 
 > Session Cookie --> 'PHPSESSID=knc0d70407noh2rjb3ds3i144d'
